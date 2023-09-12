@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	background-color: black;
+}
+
+
+header{
+	margin: 10px 0;
+	max-width: 100%;
+	background-color:black;
+	justify-content: space-between;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.list ul{
+display: flex;
+}
+
+.list #active{
+	color: black;
+	background-color: white;
+	transition: all 2s linear;
+}
+.list #active:hover {
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.list ul li {
+	display: block;
+	font-size: 20px;
+	padding: 10px 23px;
+	color: white;
+	border-radius: 50px;
+	transition: 0.3s;
+	margin: 0 5px;
+	font-weight: bold;
+}
+.list ul li:hover{
+	color: black;
+	background: white;
+
+	}
+
+	header img{
+		margin: 0 20px;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+	}
+	.corpo {
+		margin: 100px 0 0 auto;
+		align-items: center;
+		display: flex;
+	justify-content: center;
+max-width: 90%;
+}
+
+.corpo img{
+	border: white solid;
+	width: 600px;
+height: 400px;
+	box-shadow:  8px 8px 8px 8px rgba(0, 0, 0, 0.6);
+	border-radius: 50px;
+}
+.corpo p{
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 500px;
+	color: white;
+}
+
+
+.list #active{
+	color: black;
+	background-color: white;
+}
+
+#aa{
+	display: block;
+}
+
+#aa h1{
+	margin: 10px auto;
+	text-align: center;
+	align-items: center;
+	width: 300px;
+	border-radius: 50px;
+	color: black;
+	background-color: white;
+	transition: all 2s linear;
+	cursor: pointer;
+}
+#aa h1:hover {
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
